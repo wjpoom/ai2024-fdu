@@ -6,8 +6,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f8f9fa;
-    min-height: 100vh; /* 保证 body 的高度至少为视窗的高度 */
-    position: relative;
 }
 
 header {
@@ -15,15 +13,6 @@ header {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #343a40;
-    color: #ffffff;
-    padding: 10px 0;
 }
 
 nav ul {

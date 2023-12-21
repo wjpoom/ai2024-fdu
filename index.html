@@ -1,25 +1,46 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN"> <!-- 使用中文语言代码 -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="zh-CN"> <!-- 指定内容语言为中文简体 -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Your Course Website</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>复旦大学人工智能课程网站</title> <!-- 使用中文标题 -->
 </head>
 <body>
     <header>
-        <h1>Your Course Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#course-outline">Course Outline</a></li>
-                <li><a href="#presentations">Presentations</a></li>
-                <li><a href="#assignments">Assignments</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1 class="text-center text-white">COMP130031.02 人工智能</h1>
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link text-white" href="#course-outline">课程大纲</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#presentations">课程演示</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#assignments">作业</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <!-- Content Goes Here -->
-    <footer>
-        <p>&copy; 2023 Your Course Name</p>
+
+    <div class="container mt-4">
+        <!-- 内容放在这里 -->
+        <h2>课程大纲</h2>
+        <p>第一周：课程介绍</p>
+        <!-- 需要时添加更多内容 -->
+    </div>
+
+    <footer class="mt-5">
+        <div class="container text-center">
+            <p>&copy; 2023 你的课程名称</p>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS 和 Popper.js CDN（可选） -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
